@@ -1,0 +1,16 @@
+<layout id="1">
+    <fields>
+        <field id="1" position="0" length="37" name="track2" type="Varchar">
+            <field id="2" position="0" length="16" name="card_number" type="Varchar">
+                <field id="3" position="0" length="6" name="bin" type="Varchar"/>
+                <field id="4" position="6" length="6" name="data" type="Varchar"/>
+                <field id="5" position="12" length="4" name="fin" type="Varchar"/>
+            </field>
+            <field id="6" position="16" length="4" name="expiration" type="Varchar"/>
+            <field id="7" position="21" length="3" name="service_code" type="Varchar"/>
+            <field id="8" position="24" length="3" name="cvv" type="Varchar"/>
+        </field>
+        <field id="9" position="37" length="4" name="fecha" type="Date"/>
+        <field id="10" position="37" length="5" name="amount" type="Numeric"/>
+    </fields>
+</layout>
